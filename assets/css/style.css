@@ -1,48 +1,65 @@
 
-h1 {
+header {
+    float: right;
+
+}
+.name {
     float: left;
     background-color:#4aaaa5;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:20px;
     padding:20px;
-    
-    }
-
-.head {
-    float: right;
-
 }
 
 h2 {
     color:#4aaaa5;
     
 }
-#copyright {
+footer {
     color:white;
     background-color:#666666;
     width: 100%;
-    margin: 20px;
     padding:20px;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
 }
 
-#heads {
+img {
     float: left;
     width: 200px;
     height: 220px;
+    padding:20px;
+    margin:20px;
+
 }
 
-body
-{
-    height: 960px;
-    width: 960px;
-    
+.tabs {
+    float: right;
+    padding: 5px;
 }
 
-html
-{
-    height: 960px;
-    width: 960px;
-    
+h5 {
+    background:#4aaaa5;
+}
+
+#wallpaper {
+    overflow: auto;
+    background-image: url("../images/leaves-pattern.png");
+    padding: 40px;
+}
+
+#container {
+ background-color:white;
+ overflow: auto;
+ padding: 20px;
+}
+
+hr {
+    margin: 0 10px;
+}
+
+.portfolio {
+    width: 150px;
+    hight: 100px;
 }
