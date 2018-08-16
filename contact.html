@@ -8,30 +8,42 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     
 </head>
-<body>
+<body id="wallpaper">
         <header>
-                <span class="name">Yair Joseph</span>
-                <a class="tabs" href="index.html">About</a>
-                <a class="tabs" href="portfolio.html">Portfolio</a>
+                <div class="wrap">
+                <h1 class="name">Yair Joseph </h1>
                 <a class="tabs" href="contact.html">Contact</a>
+                <a class="tabs" href="portfolio.html">Portfolio</a>
+                <a class="tabs" href="index.html">About</a>
+                
+                
+                </div>
             </header>  
-            
-    <h2>Contact</h2>
-
+        <div class="container">
+        <h2>Contact</h2>
+        <hr>
+        <div class="boxes">
         <div>
             <form action="" method="">
-                <br> First Name: <input type="text" name="name" value="John Smith">
-                <br> Email: <input type="text" name="email" value="example@gmail.com" >
-                <br> Message:  <input type="text" name="message" value="Hi!">
-                <br> <input type="submit" value="Submit">
+                <label for="fname">Full Name</label> 
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="email">Email</label> 
+                    <input type="text" id="email" email="email" placeholder="example@gmail.com">
+                <label for="message">Message</label> 
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <!-- <input type="text" id="message" message="message" placeholder="Write Something..."> -->
+                     <button class="submit">Submit</button>
+            </form>
 
         </div>
-
+      </div>
+    </div>
    
 <br>
-<footer>
-<p>Copyright &#169;</p>
-</footer>
+        <footer>
+        <p id="copyright">Copyright &#169;</p>
+        </footer>
 
 </body>
 </html>
