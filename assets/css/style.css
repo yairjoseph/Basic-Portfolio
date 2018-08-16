@@ -20,7 +20,6 @@ header {
     float: right;
     padding-left: 5px;
     padding-right: 5px;
-    border-right: 2px solid;
     border-color: rgba(202, 202, 202, 0.529);
     margin-top: 35px;
     text-decoration: none;
@@ -90,6 +89,7 @@ footer {
 
 body {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 hr {
@@ -126,7 +126,8 @@ hr {
     background-color: #4aaaa5;
     color: #ffffff;
     border: none;
-   
+    padding: 7px;
+    margin-bottom: 10px;
 }
     
 label {
@@ -135,15 +136,26 @@ label {
 
 input[type=text], select, textarea {
     
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical 
 }
 
-#name, #email, #message {
+.image {
+    height: 150px;
+    width: 150px;
+}
 
+#border1 {
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+
+}
+
+#radius, .image {
+    border-radius: 25px; 
 }
