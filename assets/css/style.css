@@ -86,7 +86,7 @@ body {
     
 }
 .push {
-    min-height: 75vh;
+    min-height: 85vh;
     
 }
 
@@ -135,7 +135,8 @@ input[type=text], select, textarea {
 .portfolio {
     position: relative;
     float: left;
-    margin: 20px;
+    margin: 70px;
+    
 }
 .image {
     height: 200px;
